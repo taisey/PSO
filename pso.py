@@ -21,8 +21,8 @@ esp = 0.005
 num = 5
 
 #step 1 各粒子の位置と速度をランダムに決定する
-x = [random.uniform(-10, 10) for i in range(num)]
-v = [random.uniform(-10, 10) for i in range(num)]
+x = [random.uniform(-5, 5) for i in range(num)]
+v = [random.uniform(-5, 5) for i in range(num)]
 iteration = 1
 while(1):
     print("iteration ", iteration)
